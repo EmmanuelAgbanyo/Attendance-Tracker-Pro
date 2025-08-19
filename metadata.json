@@ -1,0 +1,5 @@
+{
+  "name": "Attendance Tracker Pro",
+  "description": "An advanced application for recording and analyzing attendance data. It provides summaries, visualizations, data export functionalities, and AI-powered insights.",
+  "requestFramePermissions": []
+}

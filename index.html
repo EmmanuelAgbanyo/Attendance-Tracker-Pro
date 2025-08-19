@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Tracker Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: 'var(--primary, #6366F1)',
+              'primary-focus': 'var(--primary-focus, #4F46E5)',
+              'primary-content': 'var(--primary-content, #FFFFFF)',
+              secondary: 'var(--secondary, #10B981)',
+              accent: 'var(--accent, #F59E0B)',
+              neutral: 'var(--neutral, #374151)',
+              'base-100': 'var(--base-100, #F9FAFB)',
+              'base-200': 'var(--base-200, #F3F4F6)',
+              'base-300': 'var(--base-300, #E5E7EB)',
+              info: 'var(--info, #3B82F6)',
+              success: 'var(--success, #10B981)',
+              warning: 'var(--warning, #F59E0B)',
+              error: 'var(--error, #EF4444)',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "@google/genai": "https://esm.sh/@google/genai@^1.13.0",
+    "recharts": "https://esm.sh/recharts@^3.1.2",
+    "jspdf": "https://esm.sh/jspdf@2.5.1",
+    "jspdf-autotable": "https://esm.sh/jspdf-autotable@3.8.2",
+    "xlsx": "https://esm.sh/xlsx@0.18.5/xlsx.mjs",
+    "html2canvas": "https://esm.sh/html2canvas@1.4.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-base-100">
+    <div id="root"></div>
+  </body>
+</html>
