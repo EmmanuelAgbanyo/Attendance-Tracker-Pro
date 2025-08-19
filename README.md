@@ -1,16 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+📊 Attendance Tracker Pro
 
-# Run and deploy your AI Studio app
+Attendance Tracker Pro is a smart and efficient solution for managing attendance. From easy data import/export to detailed metrics analysis and automated report generation, it simplifies attendance tracking for schools, businesses, and organizations.
 
-This contains everything you need to run your app locally.
+View your app in AI Studio:
+👉https://attendance-tracker-pro-1046177584611.us-west1.run.app
 
-View your app in AI Studio: https://ai.studio/apps/drive/1zFYuOF4Bh8k6pKlZ4hM5aCn9-Y5utdHd
+🚀 Features
 
-## Run Locally
+✅ Simple Attendance Recording – Mark and track attendance with ease
 
-**Prerequisites:**  Node.js
+📥 Import & Export Data – Seamlessly handle CSV/Excel attendance files
+
+📈 Metrics & Analytics – Generate insights from attendance patterns
+
+📝 Automated Reports – Create detailed reports with one click
+
+🌐 User-Friendly Interface – Accessible on desktop and mobile
+
+**🛠 Run Locally**
+
+Prerequisites:
+
+Node.js installed
+
+Steps:
+
+Install dependencies
+
+npm install
+
+
+**Set up your environment variables**
+Create a file named .env.local in the root folder and add your API key:
+
+GEMINI_API_KEY=your_api_key_here
+
+
+Run the app
+
+npm run dev
+
+📦 Deployment
+
+Easily deploy to your preferred hosting platform (Vercel, Netlify, or any Node.js server).
+
+🧾 License
+
+This project is licensed under the MIT License.
+
+✨ With Attendance Tracker Pro, attendance management has never been easier!
 
 
 1. Install dependencies:
